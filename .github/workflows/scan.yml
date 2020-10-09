@@ -43,6 +43,9 @@ jobs:
            --detect.blackduck.signature.scanner.exclusion.name.pattern=.git,node_modules \
            --detect.detector.search.depth=10
            '
+           
+# Activate these lines to generate the notices.report and commit it again into the github.
+# Make Sure, that --detect.notices.report=true ist set.
 #       - name: Commit changes
 #         uses: EndBug/add-and-commit@v4
 #         with:
